@@ -1,0 +1,44 @@
+.first-part{
+  background-image: url(/Users/hossainmdbelayet/Desktop/hero.assignment1/donate-today-d8d43d972a762ae1cbd217f6a3732ec69a728c9d/images/donation13.jpg);
+  width: 100%;
+  height: 400px;
+  color: aliceblue;
+  font-size: 12px;
+  padding: 10px;
+  
+ 
+  text-align: center;
+
+}
+#first-part2 {
+    transform: translate(-50%,-50%);
+    float: center;
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    left: 50%;
+    width: 600px;
+   font-size: 20px;
+    
+}
+h1{
+    font-size: 50px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-btn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: rgb(240, 235, 236);
+    margin-top: 10px;
+    transition: 0.5s all ease-out;
+    border-radius: 6px;
+    background-color: coral;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bolder;
+     
+     
+}
+
+
+
