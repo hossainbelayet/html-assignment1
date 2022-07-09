@@ -1,15 +1,17 @@
 .first-part{
   background-image: url(/Users/hossainmdbelayet/Desktop/hero.assignment1/donate-today-d8d43d972a762ae1cbd217f6a3732ec69a728c9d/images/donation13.jpg);
-  width: 100%;
+  width:90%;
   height: 400px;
   color: aliceblue;
+  margin-left: 22px;
   font-size: 12px;
-  padding: 10px;
+  padding: 18px;
+ text-align: center;
   
-  
- 
-  text-align: center;
 
+}
+.first-part h1{
+    text-align: center;
 }
 span2{
     color: rgb(0, 255, 64);
@@ -21,12 +23,13 @@ span2{
     transform: translate(-50%,-50%);
     float: center;
     position: absolute;
-    top: 30%;
-    right: 40%;
-    left: 50%;
+    
     width: 600px;
    font-size: 20px;
-    
+   text-align: center;
+   top: 30%;
+   right: 50%;
+   left: 50%;
 }
 h1{
     font-size: 40px ;
@@ -48,42 +51,56 @@ h1{
 }
 .second-part{
     position: absolute;
-    left: 15%;
+    left: 30%;
+    right: 40%;
     text-align: center;
     text-decoration: none;
-    padding: 6px 13px;
+    padding: 15px 13px;
   
 }
 
 .second-part p{
     color: brown;
-    padding-left: 2px;
+    padding-left: 6px;
 }
 span{
     color: crimson;
 }
 .second-part input{
+  
     width: 120px;
     height: 100px;
     border-radius: 6px;
     font-weight: bold;
     box-shadow: 10px;
     font-size: 28px;
-    
-    margin-left: 70px;
-    padding:7px 15px;
+    right: 20%;
+    left: 15px;
+    margin-left: 80px;
+    padding:10px 15px;
     transition: 0.5s all ease-out;
+    color: rgb(3, 5, 5);
+    background-color: rgb(236, 244, 241);
+    
+   
+    
       
 }
+
+   
+  
+
 .donate-300k{
+    border: 3px solid rgb(83, 63, 236);
+    background-color: 6px rgb(242, 12, 12);
     margin: 5px 5px 5px ;
 }
-.second-part input :hover{
-    color:rgb(202, 11, 11);
-}
+
+
 .third-part input{
+    display: flex;
     color: aliceblue;
-    background-color: darkgoldenrod;
+    background-color: rgb(230, 167, 7);
     height: 40px;
     width: 130px;
     text-align: center;
@@ -98,37 +115,122 @@ span{
     color: black;
 }
 .plan-box{
+   
+    padding-right: 20px;
     display: flex;
-    align-items: center;
-}
-.service{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 200px;
-    margin-left: 90px;
-    margin-right: 180px;
+    width: 340px;
     margin-top: 28px;
+    left: 0px;
+
+    
+    
+}
+
+
+
+.service{
+   min-height: 400px;
+   min-width: 400px;
+   
+    align-items: center;
+    left: 190px;
+    margin-left: 10px;
+    margin-right:20px;
+    display: flex;
+    background-color: rgb(60, 153, 155);
   
     
 }
 
 
-.new-box{
-    display: flex;
-    height: 445px;
-    width: 335px;
-    padding: 20px 35px;
-    background-color:rgb(241, 181, 181);
-    border-radius: 20px;
-    margin:15px;
-    margin-inline-start: 23px;
-  text-align: center;
-    
 
+.bell input{
+    color: rgb(255, 240, 240);
+    background-color: rgb(7, 47, 59);
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    text-align: bolder;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 100px;
+    margin-right: 36px;
+}
+.donate-box{
+    text-align: center;
+    padding: 12px;
+    background: var(color);
+    align-items: center;
+    grid-gap: 2rem;
 }
 
 
+.donate-box2{
+    display: flex;
+}
+.bill img{
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    
+    border-color: darkblue ;
+}
 
 
-
+.help-people{
+    display: flex;
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-left: 20px;
+    size: 40%;
+}
+               
+.help-people2{
+    text-align: center;
+    padding: 8px;
+    padding-left: 8px;
+    margin-right: 42px;
+    height: 350px;
+    width: 450px;
+}
+.help-people2 h2{
+    font-size: 28px;
+    color: darkgreen;
+}
+.food-donation{
+    text-align: center;
+    padding: 8px;
+    padding-left: 8px;
+    margin-right: 42px;
+    height: 350px;
+    width: 450px;
+    font-size: 16px;
+ 
+}
+.dad{
+    color: rgb(0, 67, 139);
+}
+.food2 img{
+    height: 350px;
+    width: 450px;
+    margin: 5px;
+   border-radius: 6px;
+   padding: 20px;
+}
+.food2{
+    display: flex;
+    margin-top: 40px;
+}
+h3{
+    font-size: 28px;
+}
+.activities{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 8%;
+    position: absolute;
+    right: -100px;
+    left: 20px;
+  
+}
