@@ -16,9 +16,7 @@
 span2{
     color: rgb(0, 255, 64);
 }
-.first-part{
-    background-image: linear-gradient(rgb(12 12/33%),rgb(16 13 13/80%));
-}
+
 #first-part2 {
     transform: translate(-50%,-50%);
     float: center;
