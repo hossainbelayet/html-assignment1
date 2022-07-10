@@ -149,6 +149,7 @@ span{
     width: 360px;
     padding: 12px;
     margin-left: -33px;
+    font-family: 'Poppins', sans-serif; 
 }
 .service img{
     height: 103px;
@@ -272,6 +273,7 @@ h3{
     position: absolute;
     right: -100px;
     left: 20px;
+      
     
   
 }
