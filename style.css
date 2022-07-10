@@ -1,9 +1,9 @@
 .first-part{
   background-image: url(/Users/hossainmdbelayet/Desktop/hero.assignment1/donate-today-d8d43d972a762ae1cbd217f6a3732ec69a728c9d/images/donation13.jpg);
-  width:90%;
-  height: 400px;
+  width:95%;
+  height: 500px;
   color: aliceblue;
-  margin-left: 22px;
+  margin-left: 18px;
   font-size: 12px;
   padding: 18px;
  text-align: center;
@@ -55,75 +55,82 @@ h1{
     right: 40%;
     text-align: center;
     text-decoration: none;
-    padding: 15px 13px;
-  
+    
+}
+.second-part p{
+    width: 480px;
+    margin-left: -46px;
 }
 
-.second-part p{
-    color: brown;
-    padding-left: 6px;
-}
+
 span{
     color: crimson;
 }
-.second-part input{
+
+.container{
+   
+   height: 540px;
+   float: 20px left;
   
-    width: 120px;
+   
+   /*add flexbox style*/
+   display: flex;
+  
+  justify-content: space-around;
+    
+}
+.input-100tk{
+    
+    width: 150px;
     height: 100px;
     border-radius: 6px;
     font-weight: bold;
-    box-shadow: 10px;
     font-size: 28px;
-    right: 20%;
-    left: 15px;
-    margin-left: 80px;
-    padding:10px 15px;
-    transition: 0.5s all ease-out;
     color: rgb(3, 5, 5);
-    background-color: rgb(236, 244, 241);
-    
-   
-    
-      
+    background-color: rgb(137, 213, 184);
+    margin: 20px;
+
 }
 
-   
-  
-
-.donate-300k{
-    border: 3px solid rgb(83, 63, 236);
-    background-color: 6px rgb(242, 12, 12);
-    margin: 5px 5px 5px ;
+.other-amount{
+    height: 10px;
+    text-align: center;
+    width: 100px; 
+    margin-left: 89px; 
+    display: block;
+    border: 0px;
+    outline: 0;
+    border-bottom: 2px solid red;
+    margin-top: -300px;
 }
 
 
 .third-part input{
-    display: flex;
+    display:flexbox;
     color: aliceblue;
     background-color: rgb(230, 167, 7);
     height: 40px;
     width: 130px;
-    text-align: center;
-    font-size: 20px;
+   font-size: 20px;
     text-align: bolder;
     padding: 6px;
     border-radius: 8px;
     font-weight: 100px;
+    margin-left: -63px;
+    
+ 
 
 }
-.donate-plan p{
-    color: black;
-}
+
 .plan-box{
    
-    padding-right: 20px;
     display: flex;
-    width: 340px;
-    margin-top: 28px;
-    left: 0px;
-
+    width: 240px;
     
+    justify-content: space-around;
+    margin-left: 120px;
     
+    text-align: center;
 }
 
 
@@ -131,31 +138,44 @@ span{
 .service{
    min-height: 400px;
    min-width: 400px;
-   
-    align-items: center;
-    left: 190px;
+   padding: 10px;
+   align-items: center;
     margin-left: 10px;
-    margin-right:20px;
+    margin-right: 20px;
     display: flex;
     background-color: rgb(60, 153, 155);
-  
-    
 }
-
-
-
+.service p{
+    width: 360px;
+    padding: 12px;
+    margin-left: -33px;
+}
+.service img{
+    height: 103px;
+    width: 150px;
+    margin-left: -200px;
+}
+.title{
+   
+    text-align: center;
+   
+    font-style: oblique;
+    padding-top:-26px;
+    padding: 44px;
+}
 .bell input{
     color: rgb(255, 240, 240);
-    background-color: rgb(7, 47, 59);
+    background-color: hsl(194, 79%, 13%);
+    margin-top: 38px;
     height: 40px;
     width: 200px;
     text-align: center;
     font-size: 20px;
-    text-align: bolder;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 10px;
     font-weight: 100px;
-    margin-right: 36px;
+    
+    
 }
 .donate-box{
     text-align: center;
@@ -173,15 +193,15 @@ span{
     height: 450px;
     width: 450px;
     border-radius: 10px;
-    
+    margin-left: 44px;
     border-color: darkblue ;
 }
 
 
 .help-people{
     display: flex;
-    margin-top: 80px;
-    margin-right: 60px;
+    margin-top: none;
+    margin-right: 90px;
     margin-left: 20px;
     size: 40%;
 }
@@ -190,13 +210,15 @@ span{
     text-align: center;
     padding: 8px;
     padding-left: 8px;
-    margin-right: 42px;
+    margin-left: -142px;
     height: 350px;
     width: 450px;
+    font-size: 20px;
 }
 .help-people2 h2{
     font-size: 28px;
     color: darkgreen;
+    
 }
 .food-donation{
     text-align: center;
@@ -205,7 +227,8 @@ span{
     margin-right: 42px;
     height: 350px;
     width: 450px;
-    font-size: 16px;
+    font-size: 20px;
+    margin-left: 33px;
  
 }
 .dad{
@@ -217,20 +240,65 @@ span{
     margin: 5px;
    border-radius: 6px;
    padding: 20px;
+   margin-left: -220px;
 }
 .food2{
     display: flex;
-    margin-top: 40px;
+    margin-top: 80px;
+
 }
 h3{
     font-size: 28px;
 }
-.activities{
-    font-size: 18px;
+.broh{
+    justify-content: space-around;
+    margin-left: -54px;
+    margin-top: 68px;
+}
+.part4{
+    margin-top: 28px;
     text-align: center;
-    padding-left: 8%;
+    
+    
+}
+
+
+
+.activities{
+    width: 600px;
+    font-size: 22px;
+    text-align: center;
+     color: darkgreen;
     position: absolute;
     right: -100px;
     left: 20px;
+    
   
+}
+
+.last-part{
+    margin-top: none;
+    height: 10px;
+    width: 600px;
+    right: 80px;
+     padding: 10px;
+}
+.last-part p{
+    margin-left: 56px;
+}
+.footer h3{
+    color: rgb(253, 4, 4);
+}
+.footer {
+    padding: 6px;
+    background-color: rgb(14, 18, 17);
+    width: 1500px;
+    margin-left: -490px;
+    margin-top: 25px;
+
+}
+.footer p{
+    width: 1050px;
+    color: aliceblue;
+    margin-left: 223px;
 }
